@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6A76D3AD-1CA9-4857-B292-CFA27BEA92AF</string>
+	<string>8DE14909-D5DA-409C-98C9-790F12FAD268</string>
 	<key>IDESourceControlProjectName</key>
 	<string>WeekOneAssessment</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>53B9FDBC-F6E8-4367-8CB4-B49751E84F7D</key>
-		<string>https://github.com/MobileMakersAcademy/Assessments.git</string>
+		<key>590F5A74-E2E4-4B75-9936-97DF255C10B5</key>
+		<string>https://github.com/jojomac/AssessmentWeek1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WeekOneAssessment/WeekOneAssessment.xcodeproj/project.xcworkspace</string>
+	<string>WeekOneAssessment.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>53B9FDBC-F6E8-4367-8CB4-B49751E84F7D</key>
-		<string>../../..</string>
+		<key>590F5A74-E2E4-4B75-9936-97DF255C10B5</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/MobileMakersAcademy/Assessments.git</string>
+	<string>https://github.com/jojomac/AssessmentWeek1.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>53B9FDBC-F6E8-4367-8CB4-B49751E84F7D</string>
+	<string>590F5A74-E2E4-4B75-9936-97DF255C10B5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>53B9FDBC-F6E8-4367-8CB4-B49751E84F7D</string>
+			<string>590F5A74-E2E4-4B75-9936-97DF255C10B5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Assessments</string>
+			<string>WeekOneAssessment</string>
 		</dict>
 	</array>
 </dict>

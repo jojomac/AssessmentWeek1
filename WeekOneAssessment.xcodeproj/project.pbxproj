@@ -21,6 +21,7 @@
 		93B32DDD19228CEE009894EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B32DBF19228CEE009894EF /* UIKit.framework */; };
 		93B32DE519228CEE009894EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B32DE319228CEE009894EF /* InfoPlist.strings */; };
 		93B32DE719228CEE009894EF /* WeekOneAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B32DE619228CEE009894EF /* WeekOneAssessmentTests.m */; };
+		DC9345E219256E7C00EFF1AF /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9345E119256E7C00EFF1AF /* AnswerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		93B32DE219228CEE009894EF /* WeekOneAssessmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeekOneAssessmentTests-Info.plist"; sourceTree = "<group>"; };
 		93B32DE419228CEE009894EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93B32DE619228CEE009894EF /* WeekOneAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekOneAssessmentTests.m; sourceTree = "<group>"; };
+		DC9345E019256E7C00EFF1AF /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		DC9345E119256E7C00EFF1AF /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				93B32DD119228CEE009894EF /* ViewController.m */,
 				93B32DD319228CEE009894EF /* Images.xcassets */,
 				93B32DC219228CEE009894EF /* Supporting Files */,
+				DC9345E019256E7C00EFF1AF /* AnswerViewController.h */,
+				DC9345E119256E7C00EFF1AF /* AnswerViewController.m */,
 			);
 			path = WeekOneAssessment;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9345E219256E7C00EFF1AF /* AnswerViewController.m in Sources */,
 				93B32DD219228CEE009894EF /* ViewController.m in Sources */,
 				93B32DCC19228CEE009894EF /* AppDelegate.m in Sources */,
 				93B32DC819228CEE009894EF /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				93B32DEC19228CEE009894EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B32DED19228CEE009894EF /* Build configuration list for PBXNativeTarget "WeekOneAssessmentTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				93B32DEF19228CEE009894EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *myNumber;
 @property(weak, nonatomic)IBOutlet UITextField *firstNumber;
 @end
 
@@ -19,11 +20,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
-- (void)didReceiveMemoryWarning
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITextField *)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+    ViewController *answerViewController = segue.destinationViewController;
 
+}
+- (IBAction)onCalculateButtonPressed:(id)sender
+{
+int number = [self.myNumber.text intValue];
+NSInteger myNumber = [self.firstNumber.text integerValue];
+NSInteger result = number * multiple;
+
+}
 @end
